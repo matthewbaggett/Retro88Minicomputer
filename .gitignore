@@ -3,5 +3,5 @@
 .~lock.*
 .*.lck
 eagle.epf
-&.pro
+*.pro
 *.job
