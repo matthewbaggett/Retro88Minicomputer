@@ -13602,6 +13602,10 @@ Source: http://catalog.tycoelectronics.com .. ENG_CD_145167_F.pdf</description>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="0ohm"/>
+<part name="FRAME3" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
+<part name="FRAME4" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
+<part name="FRAME5" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
+<part name="FRAME6" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13617,6 +13621,7 @@ Source: http://catalog.tycoelectronics.com .. ENG_CD_145167_F.pdf</description>
 <instance part="H6" gate="G$1" x="193.04" y="215.9"/>
 <instance part="H7" gate="G$1" x="203.2" y="215.9"/>
 <instance part="H8" gate="G$1" x="213.36" y="215.9"/>
+<instance part="FRAME3" gate="G$1" x="170.18" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -13652,6 +13657,7 @@ Source: http://catalog.tycoelectronics.com .. ENG_CD_145167_F.pdf</description>
 <instance part="C3" gate="G$1" x="35.56" y="96.52"/>
 <instance part="C4" gate="G$1" x="76.2" y="96.52"/>
 <instance part="C5" gate="G$1" x="83.82" y="96.52"/>
+<instance part="FRAME4" gate="G$1" x="-15.24" y="-15.24"/>
 </instances>
 <busses>
 </busses>
@@ -13806,6 +13812,7 @@ Source: http://catalog.tycoelectronics.com .. ENG_CD_145167_F.pdf</description>
 <instance part="P+2" gate="1" x="101.6" y="22.86"/>
 <instance part="GND1" gate="1" x="38.1" y="0"/>
 <instance part="GND28" gate="1" x="86.36" y="0"/>
+<instance part="FRAME5" gate="G$1" x="7.62" y="-45.72"/>
 </instances>
 <busses>
 </busses>
@@ -15102,7 +15109,8 @@ Source: http://catalog.tycoelectronics.com .. ENG_CD_145167_F.pdf</description>
 <instance part="X4" gate="-118" x="132.08" y="-58.42"/>
 <instance part="X4" gate="-119" x="116.84" y="-60.96"/>
 <instance part="X4" gate="-120" x="132.08" y="-60.96"/>
-<instance part="JP1" gate="G$1" x="27.94" y="104.14"/>
+<instance part="JP1" gate="G$1" x="185.42" y="83.82"/>
+<instance part="FRAME6" gate="G$1" x="7.62" y="-78.74"/>
 </instances>
 <busses>
 </busses>
@@ -15191,29 +15199,29 @@ Source: http://catalog.tycoelectronics.com .. ENG_CD_145167_F.pdf</description>
 <net name="USB5+" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="D+"/>
-<wire x1="25.4" y1="111.76" x2="10.16" y2="111.76" width="0.1524" layer="91"/>
-<label x="12.7" y="111.76" size="1.778" layer="95"/>
+<wire x1="182.88" y1="91.44" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
+<label x="170.18" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB5-" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="D-"/>
-<wire x1="10.16" y1="109.22" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
-<label x="12.7" y="109.22" size="1.778" layer="95"/>
+<wire x1="167.64" y1="88.9" x2="182.88" y2="88.9" width="0.1524" layer="91"/>
+<label x="170.18" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="USB5_PWR" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="VBUS"/>
-<wire x1="25.4" y1="106.68" x2="10.16" y2="106.68" width="0.1524" layer="91"/>
-<label x="12.7" y="106.68" size="1.778" layer="95"/>
+<wire x1="182.88" y1="86.36" x2="167.64" y2="86.36" width="0.1524" layer="91"/>
+<label x="170.18" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="GND"/>
-<wire x1="10.16" y1="104.14" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
-<label x="12.7" y="104.14" size="1.778" layer="95"/>
+<wire x1="167.64" y1="83.82" x2="182.88" y2="83.82" width="0.1524" layer="91"/>
+<label x="170.18" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="X2" gate="-7" pin="1"/>
