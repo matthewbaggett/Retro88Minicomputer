@@ -16060,7 +16060,7 @@ and give the core a
 dedicated 3.3v service</text>
 </plain>
 <instances>
-<instance part="U1" gate="_PWR" x="20.32" y="147.32"/>
+<instance part="U1" gate="_PWR" x="17.78" y="147.32"/>
 <instance part="U1" gate="_RUN" x="93.98" y="165.1"/>
 <instance part="U1" gate="_USB" x="17.78" y="58.42"/>
 <instance part="U1" gate="_TV" x="12.7" y="15.24"/>
@@ -16139,7 +16139,7 @@ dedicated 3.3v service</text>
 <segment>
 <pinref part="U1" gate="_PWR" pin="GND"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="33.02" y1="139.7" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="139.7" x2="63.5" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="139.7" x2="63.5" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -16168,7 +16168,7 @@ dedicated 3.3v service</text>
 <net name="1.8V" class="0">
 <segment>
 <pinref part="U1" gate="_PWR" pin="1V8"/>
-<wire x1="33.02" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="G$1" pin="1.8V"/>
 <wire x1="35.56" y1="157.48" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
 </segment>
@@ -16694,13 +16694,13 @@ dedicated 3.3v service</text>
 <net name="CPU_3.3V" class="0">
 <segment>
 <pinref part="U1" gate="_PWR" pin="3V3"/>
-<wire x1="33.02" y1="154.94" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="154.94" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="U1" gate="_PWR" pin="VBAT"/>
-<wire x1="33.02" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="149.86" x2="43.18" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="149.86" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="U1" gate="_PWR" pin="VDAC"/>
 <wire x1="43.18" y1="152.4" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="152.4" x2="43.18" y2="152.4" width="0.1524" layer="91"/>
 <junction x="43.18" y="152.4"/>
 <junction x="43.18" y="154.94"/>
 <wire x1="43.18" y1="154.94" x2="43.18" y2="170.18" width="0.1524" layer="91"/>
